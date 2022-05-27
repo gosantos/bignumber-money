@@ -4,7 +4,6 @@
     "target": "es2021",
     "declaration": true,
     "outDir": "./dist"
-
   },
   "include": ["src/**/*"]
 }
