@@ -27,8 +27,8 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
-      - run: npm run build
       - run: npm ci --production
+      - run: npm run build
       - run: npm version minor -m "Release version %s"
       - run: git push && git push --tags
       - run: npm publish
