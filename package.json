@@ -1,9 +1,10 @@
 {
   "name": "bignumber-money",
   "version": "1.0.0",
-  "description": "",
+  "description": "Money representation library implemented using bignumber.js",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "test": "jest"
   },
   "author": "https://github.com/gosantos",
